@@ -1,0 +1,773 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCOUNT_H	.\account.h	40;"	d
+ALLOCATION_H	.\allocation.h	40;"	d
+AUTHORIZED	.\account.h	/^  AUTHORIZED, \/**< Client is authorized to access service *\/$/;"	e	enum:account_state
+CONF_H	.\conf.h	40;"	d
+DBG_ATTR	.\dbg.h	73;"	d
+DBG_H	.\dbg.h	56;"	d
+DEFAULT_CONFIGURATION_FILE	.\turnserver.c	106;"	d	file:
+INIT_LIST	.\list.h	90;"	d
+IPPROTO_IPV6	.\tls_peer.c	95;"	d	file:
+IPV6_V6ONLY	.\tls_peer.c	100;"	d	file:
+LIBSSL_CLEANUP	.\tls_peer.h	117;"	d
+LIBSSL_INIT	.\tls_peer.h	108;"	d
+LIST_ADD	.\list.h	108;"	d
+LIST_ADD_TAIL	.\list.h	122;"	d
+LIST_DEL	.\list.h	137;"	d
+LIST_EMPTY	.\list.h	150;"	d
+LIST_H	.\list.h	56;"	d
+LIST_HEAD	.\list.h	100;"	d
+MAX	.\util_sys.h	117;"	d
+MIN	.\util_sys.h	123;"	d
+MOD_TMPUSER_H	.\mod_tmpuser.h	46;"	d
+OS_SET_DF_SUPPORT	.\turnserver.c	93;"	d	file:
+PROTOCOL_H	.\protocol.h	40;"	d
+REFUSED	.\account.h	/^  REFUSED, \/**< Client is always refused to access service (i.e. blacklist) *\/$/;"	e	enum:account_state
+RESTRICTED	.\account.h	/^  RESTRICTED, \/**< Client has limited access to service (bandwidth, ...) *\/$/;"	e	enum:account_state
+SFD_CLR	.\util_sys.h	187;"	d
+SFD_ISSET	.\util_sys.h	181;"	d
+SFD_SET	.\util_sys.h	175;"	d
+SFD_SETSIZE	.\util_sys.h	138;"	d
+SFD_ZERO	.\util_sys.h	169;"	d
+SIGRT_EXPIRE_ALLOCATION	.\turnserver.h	56;"	d
+SIGRT_EXPIRE_CHANNEL	.\turnserver.h	68;"	d
+SIGRT_EXPIRE_PERMISSION	.\turnserver.h	62;"	d
+SIGRT_EXPIRE_TCP_RELAY	.\turnserver.h	80;"	d
+SIGRT_EXPIRE_TOKEN	.\turnserver.h	74;"	d
+SOFTWARE_DESCRIPTION	.\test_turn_client.c	91;"	d	file:
+SOFTWARE_DESCRIPTION	.\turnserver.c	100;"	d	file:
+STUN_ATTR_ALTERNATE_SERVER	.\turn.h	160;"	d
+STUN_ATTR_ERROR_CODE	.\turn.h	142;"	d
+STUN_ATTR_FAMILY_IPV4	.\turn.h	255;"	d
+STUN_ATTR_FAMILY_IPV6	.\turn.h	256;"	d
+STUN_ATTR_FINGERPRINT	.\turn.h	163;"	d
+STUN_ATTR_MAPPED_ADDRESS	.\turn.h	133;"	d
+STUN_ATTR_MESSAGE_INTEGRITY	.\turn.h	139;"	d
+STUN_ATTR_NONCE	.\turn.h	151;"	d
+STUN_ATTR_REALM	.\turn.h	148;"	d
+STUN_ATTR_SOFTWARE	.\turn.h	157;"	d
+STUN_ATTR_UNKNOWN_ATTRIBUTES	.\turn.h	145;"	d
+STUN_ATTR_USERNAME	.\turn.h	136;"	d
+STUN_ATTR_XOR_MAPPED_ADDRESS	.\turn.h	154;"	d
+STUN_ERROR_300	.\turn.h	225;"	d
+STUN_ERROR_400	.\turn.h	226;"	d
+STUN_ERROR_401	.\turn.h	227;"	d
+STUN_ERROR_420	.\turn.h	228;"	d
+STUN_ERROR_438	.\turn.h	229;"	d
+STUN_ERROR_500	.\turn.h	230;"	d
+STUN_ERROR_BAD_REQUEST	.\turn.h	202;"	d
+STUN_ERROR_RESP	.\turn.h	74;"	d
+STUN_ERROR_SERVER_ERROR	.\turn.h	206;"	d
+STUN_ERROR_STALE_NONCE	.\turn.h	205;"	d
+STUN_ERROR_TRY_ALTERNATE	.\turn.h	201;"	d
+STUN_ERROR_UNAUTHORIZED	.\turn.h	203;"	d
+STUN_ERROR_UNKNOWN_ATTRIBUTE	.\turn.h	204;"	d
+STUN_FINGERPRINT_XOR_VALUE	.\turn.h	252;"	d
+STUN_GET_CLASS	.\turn.h	88;"	d
+STUN_GET_METHOD	.\turn.h	87;"	d
+STUN_INDICATION	.\turn.h	72;"	d
+STUN_IS_COMPREHENSION_OPTIONAL	.\turn.h	94;"	d
+STUN_IS_COMPREHENSION_REQUIRED	.\turn.h	93;"	d
+STUN_IS_ERROR_RESP	.\turn.h	82;"	d
+STUN_IS_INDICATION	.\turn.h	80;"	d
+STUN_IS_REQUEST	.\turn.h	79;"	d
+STUN_IS_SUCCESS_RESP	.\turn.h	81;"	d
+STUN_MAGIC_COOKIE	.\turn.h	249;"	d
+STUN_METHOD_BINDING	.\turn.h	99;"	d
+STUN_REQUEST	.\turn.h	71;"	d
+STUN_SUCCESS_RESP	.\turn.h	73;"	d
+TCP	.\tls_peer.h	/^  TCP = IPPROTO_TCP, \/**< TCP protocol *\/$/;"	e	enum:protocol_type
+TLS_PEER_H	.\tls_peer.h	59;"	d
+TURNSERVER_H	.\turnserver.h	40;"	d
+TURN_ATTR_CHANNEL_NUMBER	.\turn.h	168;"	d
+TURN_ATTR_CONNECTION_ID	.\turn.h	198;"	d
+TURN_ATTR_DATA	.\turn.h	177;"	d
+TURN_ATTR_DONT_FRAGMENT	.\turn.h	189;"	d
+TURN_ATTR_EVEN_PORT	.\turn.h	183;"	d
+TURN_ATTR_LIFETIME	.\turn.h	171;"	d
+TURN_ATTR_REQUESTED_ADDRESS_FAMILY	.\turn.h	195;"	d
+TURN_ATTR_REQUESTED_TRANSPORT	.\turn.h	186;"	d
+TURN_ATTR_RESERVATION_TOKEN	.\turn.h	192;"	d
+TURN_ATTR_XOR_PEER_ADDRESS	.\turn.h	174;"	d
+TURN_ATTR_XOR_RELAYED_ADDRESS	.\turn.h	180;"	d
+TURN_DEFAULT_ALLOCATION_LIFETIME	.\turn.h	259;"	d
+TURN_DEFAULT_CHANNEL_LIFETIME	.\turn.h	268;"	d
+TURN_DEFAULT_NONCE_LIFETIME	.\turn.h	271;"	d
+TURN_DEFAULT_PERMISSION_LIFETIME	.\turn.h	265;"	d
+TURN_DEFAULT_TCP_CONNECT_TIMEOUT	.\turn.h	282;"	d
+TURN_DEFAULT_TCP_RELAY_TIMEOUT	.\turn.h	278;"	d
+TURN_DEFAULT_TOKEN_LIFETIME	.\turn.h	274;"	d
+TURN_ERROR_403	.\turn.h	233;"	d
+TURN_ERROR_437	.\turn.h	234;"	d
+TURN_ERROR_440	.\turn.h	241;"	d
+TURN_ERROR_441	.\turn.h	235;"	d
+TURN_ERROR_442	.\turn.h	236;"	d
+TURN_ERROR_443	.\turn.h	242;"	d
+TURN_ERROR_446	.\turn.h	245;"	d
+TURN_ERROR_447	.\turn.h	246;"	d
+TURN_ERROR_486	.\turn.h	237;"	d
+TURN_ERROR_508	.\turn.h	238;"	d
+TURN_ERROR_ADDRESS_FAMILY_NOT_SUPPORTED	.\turn.h	217;"	d
+TURN_ERROR_ALLOCATION_MISMATCH	.\turn.h	210;"	d
+TURN_ERROR_ALLOCATION_QUOTA_REACHED	.\turn.h	213;"	d
+TURN_ERROR_CONNECTON_ALREADY_EXIST	.\turn.h	221;"	d
+TURN_ERROR_CONNECTON_TIMEOUT	.\turn.h	222;"	d
+TURN_ERROR_FORBIDDEN	.\turn.h	209;"	d
+TURN_ERROR_INSUFFICIENT_CAPACITY	.\turn.h	214;"	d
+TURN_ERROR_PEER_ADDRESS_FAMILY_MISMATCH	.\turn.h	218;"	d
+TURN_ERROR_UNSUPPORTED_TRANSPORT_PROTOCOL	.\turn.h	212;"	d
+TURN_ERROR_WRONG_CREDENTIALS	.\turn.h	211;"	d
+TURN_H	.\turn.h	40;"	d
+TURN_IS_CHANNELDATA	.\turn.h	85;"	d
+TURN_MAX_ALLOCATION_LIFETIME	.\turn.h	262;"	d
+TURN_METHOD_ALLOCATE	.\turn.h	102;"	d
+TURN_METHOD_CHANNELBIND	.\turn.h	111;"	d
+TURN_METHOD_CONNECT	.\turn.h	114;"	d
+TURN_METHOD_CONNECTIONATTEMPT	.\turn.h	128;"	d
+TURN_METHOD_CONNECTIONBIND	.\turn.h	117;"	d
+TURN_METHOD_CREATEPERMISSION	.\turn.h	108;"	d
+TURN_METHOD_DATA	.\turn.h	125;"	d
+TURN_METHOD_REFRESH	.\turn.h	105;"	d
+TURN_METHOD_SEND	.\turn.h	122;"	d
+UDP	.\tls_peer.h	/^  UDP = IPPROTO_UDP, \/**< UDP protocol *\/$/;"	e	enum:protocol_type
+UNKNOWN_ERROR	.\util_sys.c	80;"	d	file:
+UTIL_CRYPTO_H	.\util_crypto.h	59;"	d
+UTIL_SYS_H	.\util_sys.h	56;"	d
+WIN32_LEAN_AND_MEAN	.\test_turn_client.c	67;"	d	file:
+WIN32_LEAN_AND_MEAN	.\tls_peer.h	83;"	d
+WIN32_LEAN_AND_MEAN	.\util_sys.h	70;"	d
+XOR_PEER_ADDRESS_MAX	.\protocol.h	70;"	d
+__attribute__	.\turn.h	61;"	d
+__fds_bits	.\util_sys.h	158;"	d
+account_desc	.\account.h	/^struct account_desc$/;"	s
+account_desc_free	.\account.c	/^void account_desc_free(struct account_desc** desc)$/;"	f
+account_desc_new	.\account.c	/^struct account_desc* account_desc_new(const char* username,$/;"	f
+account_desc_set_state	.\account.c	/^void account_desc_set_state(struct account_desc* desc, enum account_state state)$/;"	f
+account_list	.\mod_tmpuser.c	/^  struct list_head* account_list; \/**< account list *\/$/;"	m	struct:tmpuser	typeref:struct:tmpuser::list_head	file:
+account_list_add	.\account.c	/^void account_list_add(struct list_head* list, struct account_desc* desc)$/;"	f
+account_list_find	.\account.c	/^struct account_desc* account_list_find(struct list_head* list,$/;"	f
+account_list_free	.\account.c	/^void account_list_free(struct list_head* list)$/;"	f
+account_list_remove	.\account.c	/^void account_list_remove(struct list_head* list, struct account_desc* desc)$/;"	f
+account_parse_file	.\account.c	/^int account_parse_file(struct list_head* list, const char* file)$/;"	f
+account_state	.\account.h	/^enum account_state$/;"	g
+addr	.\tls_peer.c	/^  struct sockaddr_storage addr; \/**< Socket address *\/$/;"	m	struct:ssl_peer	typeref:struct:ssl_peer::sockaddr_storage	file:
+addr	.\turnserver.h	/^  uint8_t addr[16]; \/**< IPv4 or IPv6 address *\/$/;"	m	struct:denied_address
+allocation_channel	.\allocation.h	/^struct allocation_channel$/;"	s
+allocation_channel_set_timer	.\allocation.c	/^void allocation_channel_set_timer(struct allocation_channel* channel,$/;"	f
+allocation_desc	.\allocation.h	/^struct allocation_desc$/;"	s
+allocation_desc_add_channel	.\allocation.c	/^int allocation_desc_add_channel(struct allocation_desc* desc, uint16_t channel,$/;"	f
+allocation_desc_add_permission	.\allocation.c	/^int allocation_desc_add_permission(struct allocation_desc* desc,$/;"	f
+allocation_desc_add_tcp_relay	.\allocation.c	/^int allocation_desc_add_tcp_relay(struct allocation_desc* desc, uint32_t id,$/;"	f
+allocation_desc_find_channel	.\allocation.c	/^uint32_t allocation_desc_find_channel(struct allocation_desc* desc, int family,$/;"	f
+allocation_desc_find_channel_number	.\allocation.c	/^struct allocation_channel* allocation_desc_find_channel_number($/;"	f
+allocation_desc_find_permission	.\allocation.c	/^struct allocation_permission* allocation_desc_find_permission($/;"	f
+allocation_desc_find_permission_sockaddr	.\allocation.c	/^struct allocation_permission* allocation_desc_find_permission_sockaddr($/;"	f
+allocation_desc_find_tcp_relay_addr	.\allocation.c	/^struct allocation_tcp_relay* allocation_desc_find_tcp_relay_addr($/;"	f
+allocation_desc_find_tcp_relay_id	.\allocation.c	/^struct allocation_tcp_relay* allocation_desc_find_tcp_relay_id($/;"	f
+allocation_desc_free	.\allocation.c	/^void allocation_desc_free(struct allocation_desc** desc)$/;"	f
+allocation_desc_new	.\allocation.c	/^struct allocation_desc* allocation_desc_new(const uint8_t* id,$/;"	f
+allocation_desc_set_timer	.\allocation.c	/^void allocation_desc_set_timer(struct allocation_desc* desc, uint32_t lifetime)$/;"	f
+allocation_list_add	.\allocation.c	/^void allocation_list_add(struct list_head* list, struct allocation_desc* desc)$/;"	f
+allocation_list_find_id	.\allocation.c	/^struct allocation_desc* allocation_list_find_id(struct list_head* list,$/;"	f
+allocation_list_find_relayed	.\allocation.c	/^struct allocation_desc* allocation_list_find_relayed(struct list_head* list,$/;"	f
+allocation_list_find_tuple	.\allocation.c	/^struct allocation_desc* allocation_list_find_tuple(struct list_head* list,$/;"	f
+allocation_list_find_username	.\allocation.c	/^struct allocation_desc* allocation_list_find_username(struct list_head* list,$/;"	f
+allocation_list_free	.\allocation.c	/^void allocation_list_free(struct list_head* list)$/;"	f
+allocation_list_remove	.\allocation.c	/^void allocation_list_remove(struct list_head* list,$/;"	f
+allocation_permission	.\allocation.h	/^struct allocation_permission$/;"	s
+allocation_permission_set_timer	.\allocation.c	/^void allocation_permission_set_timer(struct allocation_permission* permission,$/;"	f
+allocation_tcp_relay	.\allocation.h	/^struct allocation_tcp_relay$/;"	s
+allocation_tcp_relay_list_remove	.\allocation.c	/^void allocation_tcp_relay_list_remove(struct list_head* list,$/;"	f
+allocation_tcp_relay_set_timer	.\allocation.c	/^void allocation_tcp_relay_set_timer(struct allocation_tcp_relay* relay,$/;"	f
+allocation_token	.\allocation.h	/^struct allocation_token$/;"	s
+allocation_token_free	.\allocation.c	/^void allocation_token_free(struct allocation_token** token)$/;"	f
+allocation_token_list_add	.\allocation.c	/^void allocation_token_list_add(struct list_head* list,$/;"	f
+allocation_token_list_find	.\allocation.c	/^struct allocation_token* allocation_token_list_find(struct list_head* list,$/;"	f
+allocation_token_list_free	.\allocation.c	/^void allocation_token_list_free(struct list_head* list)$/;"	f
+allocation_token_list_remove	.\allocation.c	/^void allocation_token_list_remove(struct list_head* list,$/;"	f
+allocation_token_new	.\allocation.c	/^struct allocation_token* allocation_token_new(uint8_t* id, int sock,$/;"	f
+allocation_token_set_timer	.\allocation.c	/^void allocation_token_set_timer(struct allocation_token* token,$/;"	f
+allocation_tuple	.\allocation.h	/^struct allocation_tuple$/;"	s
+allocations	.\account.h	/^  size_t allocations; \/**< Number of allocations used *\/$/;"	m	struct:account_desc
+alternate_server	.\protocol.h	/^  struct turn_attr_alternate_server* alternate_server; \/**< ALTERNATE-SERVER attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_alternate_server
+bio_fake	.\tls_peer.h	/^  BIO* bio_fake; \/**< Fake BIO for read operations *\/$/;"	m	struct:tls_peer
+bucket_capacity	.\allocation.h	/^  unsigned long bucket_capacity; \/**< Capacity of token bucket *\/$/;"	m	struct:allocation_desc
+bucket_tokendown	.\allocation.h	/^  unsigned long bucket_tokendown; \/**< Number of tokens available for$/;"	m	struct:allocation_desc
+bucket_tokenup	.\allocation.h	/^  unsigned long bucket_tokenup; \/**< Number of tokens available for upload *\/$/;"	m	struct:allocation_desc
+buf	.\allocation.h	/^  char* buf; \/**< Internal buffer for peer data (before receiving$/;"	m	struct:allocation_tcp_relay
+buf	.\turnserver.h	/^  char buf[1500]; \/**< Internal buffer for TCP stream reconstruction *\/$/;"	m	struct:socket_desc
+buf_len	.\allocation.h	/^  size_t buf_len; \/**< Length of current data in internal buffer *\/$/;"	m	struct:allocation_tcp_relay
+buf_pos	.\turnserver.h	/^  size_t buf_pos; \/**< Position in the internal buffer *\/$/;"	m	struct:socket_desc
+buf_size	.\allocation.h	/^  size_t buf_size; \/**< Capacity of internal buffer *\/$/;"	m	struct:allocation_tcp_relay
+ca_file	.\test_turn_client.c	/^  char* ca_file; \/**< Certification authority pathname *\/$/;"	m	struct:client_configuration	file:
+certificate_file	.\test_turn_client.c	/^  char* certificate_file; \/**< SSL certificate pathname *\/$/;"	m	struct:client_configuration	file:
+channel_number	.\allocation.h	/^  uint16_t channel_number; \/**< Channel bound to this peer *\/$/;"	m	struct:allocation_channel
+channel_number	.\protocol.h	/^  struct turn_attr_channel_number* channel_number; \/**< CHANNEL-NUMBER attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_channel_number
+client_addr	.\allocation.h	/^  struct sockaddr_storage client_addr; \/**< Client address *\/$/;"	m	struct:allocation_tuple	typeref:struct:allocation_tuple::sockaddr_storage
+client_allocate_address	.\test_turn_client.c	/^static int client_allocate_address(int transport_protocol, int relay_protocol, int sock,$/;"	f	file:
+client_channelbind	.\test_turn_client.c	/^static int client_channelbind(int transport_protocol, int sock, struct tls_peer* speer,$/;"	f	file:
+client_configuration	.\test_turn_client.c	/^struct client_configuration$/;"	s	file:
+client_connect_server	.\test_turn_client.c	/^static int client_connect_server(int transport_protocol, const struct sockaddr* addr, socklen_t addr_size,$/;"	f	file:
+client_create_permission	.\test_turn_client.c	/^static int client_create_permission(int transport_protocol, int sock, struct tls_peer* speer,$/;"	f	file:
+client_list	.\mod_tmpuser.c	/^  struct list_head client_list; \/**< TCP client socket list *\/$/;"	m	struct:tmpuser	typeref:struct:tmpuser::list_head	file:
+client_parse_cmdline	.\test_turn_client.c	/^static void client_parse_cmdline(int argc, char** argv, struct client_configuration* conf)$/;"	f	file:
+client_print_help	.\test_turn_client.c	/^static void client_print_help(const char* name, const char* version)$/;"	f	file:
+client_recv_message	.\test_turn_client.c	/^static int client_recv_message(int transport_protocol, int sock, struct tls_peer* speer, char* buf, size_t buflen)$/;"	f	file:
+client_refresh_allocation	.\test_turn_client.c	/^static int client_refresh_allocation(int transport_protocol, int sock, struct tls_peer* speer,$/;"	f	file:
+client_send_channeldata	.\test_turn_client.c	/^static int client_send_channeldata(int transport_protocol, int sock, struct tls_peer* speer,$/;"	f	file:
+client_send_connect	.\test_turn_client.c	/^static int client_send_connect(int transport_protocol, int sock, struct tls_peer* speer,$/;"	f	file:
+client_send_data	.\test_turn_client.c	/^static int client_send_data(int transport_protocol, int sock, struct tls_peer* speer,$/;"	f	file:
+client_setup_socket	.\test_turn_client.c	/^static int client_setup_socket(int transport_protocol, const char* addr, uint16_t port, int* sock,$/;"	f	file:
+client_sock	.\allocation.h	/^  int client_sock; \/**< Client data connection (client <-> server) *\/$/;"	m	struct:allocation_tcp_relay
+client_wait_connection	.\test_turn_client.c	/^static int client_wait_connection(int transport_protocol, int sock, struct tls_peer* speer,$/;"	f	file:
+close	.\test_turn_client.c	60;"	d	file:
+connect_msg_id	.\allocation.h	/^  uint8_t connect_msg_id[12]; \/**< TURN message ID of the connection request$/;"	m	struct:allocation_tcp_relay
+connection_id	.\allocation.h	/^  uint32_t connection_id; \/**< Connection ID *\/$/;"	m	struct:allocation_tcp_relay
+connection_id	.\protocol.h	/^  struct turn_attr_connection_id* connection_id; \/**< CONNECTION-ID attribute (RFC6062) *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_connection_id
+crc32_generate	.\util_crypto.c	/^uint32_t crc32_generate(const uint8_t* data, size_t len, uint32_t prev)$/;"	f
+created	.\allocation.h	/^  time_t created; \/**< Time when this relay has been created (this is used to$/;"	m	struct:allocation_tcp_relay
+ctx_client	.\tls_peer.h	/^  SSL_CTX* ctx_client; \/**< SSL context for client side *\/$/;"	m	struct:tls_peer
+ctx_server	.\tls_peer.h	/^  SSL_CTX* ctx_server; \/**< SSL context for server side *\/$/;"	m	struct:tls_peer
+data	.\protocol.h	/^  struct turn_attr_data* data; \/**< DATA attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_data
+dbg_print	.\dbg.c	/^void dbg_print(const char* f, int line, const char* format, ...)$/;"	f
+dbg_print_hexa	.\dbg.c	/^void dbg_print_hexa(const char* f, int line, const char* buf, size_t len,$/;"	f
+dbg_print_null	.\dbg.c	/^void dbg_print_null(const char* f, int line, const char* format, ...)$/;"	f
+debug	.\dbg.h	117;"	d
+debug	.\dbg.h	119;"	d
+debug_hexa	.\dbg.h	130;"	d
+denied_address	.\turnserver.h	/^struct denied_address$/;"	s
+denied_address_opts	.\conf.c	/^static cfg_opt_t denied_address_opts[] =$/;"	v	file:
+digest_print	.\util_crypto.c	/^void digest_print(const unsigned char* buf, size_t len)$/;"	f
+dont_fragment	.\protocol.h	/^  struct turn_attr_dont_fragment* dont_fragment; \/**< DONT-FRAGMENT attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_dont_fragment
+encode_http_string	.\util_sys.c	/^char* encode_http_string(const char* str)$/;"	f
+error_code	.\protocol.h	/^  struct turn_attr_error_code* error_code; \/**< ERROR-CODE attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_error_code
+even_port	.\protocol.h	/^  struct turn_attr_even_port* even_port; \/**< REQUESTED-PROPS attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_even_port
+expire_timer	.\allocation.h	/^  timer_t expire_timer; \/**< Expire timer *\/$/;"	m	struct:allocation_channel
+expire_timer	.\allocation.h	/^  timer_t expire_timer; \/**< Expire timer *\/$/;"	m	struct:allocation_desc
+expire_timer	.\allocation.h	/^  timer_t expire_timer; \/**< Expire timer *\/$/;"	m	struct:allocation_permission
+expire_timer	.\allocation.h	/^  timer_t expire_timer; \/**< Expire timer *\/$/;"	m	struct:allocation_tcp_relay
+expire_timer	.\allocation.h	/^  timer_t expire_timer; \/**< Expire timer *\/$/;"	m	struct:allocation_token
+family	.\allocation.h	/^  int family; \/**< Address family *\/$/;"	m	struct:allocation_channel
+family	.\allocation.h	/^  int family; \/**< Address family *\/$/;"	m	struct:allocation_permission
+family	.\allocation.h	/^  int family; \/**< TCP relay family (IPv4 or IPv6) *\/$/;"	m	struct:allocation_tcp_relay
+family	.\turnserver.h	/^  int family; \/**< AF family (AF_INET or AF_INET6) *\/$/;"	m	struct:denied_address
+fd_mask	.\util_sys.h	/^typedef long int fd_mask;$/;"	t
+fds_bits	.\util_sys.h	/^  fd_mask fds_bits[SFD_SETSIZE \/ (8 * sizeof(fd_mask)) + 1]; \/**< Bitmask *\/$/;"	m	struct:sfd_set
+fingerprint	.\protocol.h	/^  struct turn_attr_fingerprint* fingerprint; \/**< FINGERPRINT attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_fingerprint
+g_cfg	.\conf.c	/^static cfg_t* g_cfg = NULL;$/;"	v	file:
+g_denied_address_list	.\turnserver.c	/^static struct list_head g_denied_address_list;$/;"	v	typeref:struct:list_head	file:
+g_expired_allocation_list	.\turnserver.c	/^static struct list_head g_expired_allocation_list;$/;"	v	typeref:struct:list_head	file:
+g_expired_channel_list	.\turnserver.c	/^static struct list_head g_expired_channel_list;$/;"	v	typeref:struct:list_head	file:
+g_expired_permission_list	.\turnserver.c	/^static struct list_head g_expired_permission_list;$/;"	v	typeref:struct:list_head	file:
+g_expired_tcp_relay_list	.\turnserver.c	/^static struct list_head g_expired_tcp_relay_list;$/;"	v	typeref:struct:list_head	file:
+g_expired_token_list	.\turnserver.c	/^static struct list_head g_expired_token_list;$/;"	v	typeref:struct:list_head	file:
+g_reinit	.\turnserver.c	/^static volatile sig_atomic_t g_reinit = 0;$/;"	v	file:
+g_run	.\test_echo_server.c	/^static volatile sig_atomic_t g_run = 0;$/;"	v	file:
+g_run	.\turnserver.c	/^static volatile sig_atomic_t g_run = 0;$/;"	v	file:
+g_supported_even_port_flags	.\turnserver.c	/^static const uint8_t g_supported_even_port_flags = 0x80;$/;"	v	file:
+g_tcp_socket_list	.\turnserver.c	/^static struct list_head g_tcp_socket_list;$/;"	v	typeref:struct:list_head	file:
+g_tmpuser	.\mod_tmpuser.c	/^static struct tmpuser g_tmpuser;$/;"	v	typeref:struct:tmpuser	file:
+g_token_list	.\turnserver.c	/^static struct list_head g_token_list;$/;"	v	typeref:struct:list_head	file:
+get_dtablesize	.\util_sys.c	/^long get_dtablesize(void)$/;"	f
+get_error	.\util_sys.c	/^char* get_error(int errnum, char* buf, size_t buflen)$/;"	f
+gid_t	.\util_sys.h	/^typedef int gid_t;$/;"	t
+go_daemon	.\util_sys.c	/^int go_daemon(const char* dir, mode_t mask, void (*cleanup)(void* arg),$/;"	f
+handshake_complete	.\tls_peer.c	/^  int handshake_complete; \/**< State of the handshake *\/$/;"	m	struct:ssl_peer	file:
+hex_convert	.\util_sys.c	/^void hex_convert(const unsigned char* bin, size_t bin_len, unsigned char* hex,$/;"	f
+hmac_md5_generate	.\util_crypto.c	/^int hmac_md5_generate(unsigned char* hash, const unsigned char* text,$/;"	f
+hmac_sha1_generate	.\util_crypto.c	/^int hmac_sha1_generate(unsigned char* hash, const unsigned char* text,$/;"	f
+id	.\allocation.h	/^  uint8_t id[8]; \/**< Token ID *\/$/;"	m	struct:allocation_token
+initialized	.\mod_tmpuser.c	/^  int initialized; \/**< initialized flag *\/$/;"	m	struct:tmpuser	file:
+inline	.\list.h	66;"	d
+inline	.\util_sys.h	91;"	d
+int16_t	.\dbg.c	/^typedef __int16 int16_t;$/;"	t	file:
+int16_t	.\tls_peer.h	/^typedef __int16 int16_t;$/;"	t
+int16_t	.\turn.h	/^typedef __int16 int16_t;$/;"	t
+int16_t	.\util_crypto.h	/^typedef __int16 int16_t;$/;"	t
+int16_t	.\util_sys.h	/^typedef __int16 int16_t;$/;"	t
+int32_t	.\dbg.c	/^typedef __int32 int32_t;$/;"	t	file:
+int32_t	.\tls_peer.h	/^typedef __int32 int32_t;$/;"	t
+int32_t	.\turn.h	/^typedef __int32 int32_t;$/;"	t
+int32_t	.\util_crypto.h	/^typedef __int32 int32_t;$/;"	t
+int32_t	.\util_sys.h	/^typedef __int32 int32_t;$/;"	t
+int64_t	.\dbg.c	/^typedef __int64 int64_t;$/;"	t	file:
+int64_t	.\tls_peer.h	/^typedef __int64 int64_t;$/;"	t
+int64_t	.\turn.h	/^typedef __int64 int64_t;$/;"	t
+int64_t	.\util_crypto.h	/^typedef __int64 int64_t;$/;"	t
+int64_t	.\util_sys.h	/^typedef __int64 int64_t;$/;"	t
+int8_t	.\dbg.c	/^typedef __int8 int8_t;$/;"	t	file:
+int8_t	.\tls_peer.h	/^typedef __int8 int8_t;$/;"	t
+int8_t	.\turn.h	/^typedef __int8 int8_t;$/;"	t
+int8_t	.\util_crypto.h	/^typedef __int8 int8_t;$/;"	t
+int8_t	.\util_sys.h	/^typedef __int8 int8_t;$/;"	t
+iov_base	.\util_sys.h	/^  void* iov_base; \/**< Pointer on data *\/$/;"	m	struct:iovec
+iov_len	.\util_sys.h	/^  size_t iov_len; \/**< Size of data *\/$/;"	m	struct:iovec
+iovec	.\util_sys.h	/^typedef struct iovec$/;"	s
+iovec	.\util_sys.h	/^}iovec;$/;"	t	typeref:struct:iovec
+iovec_free_data	.\util_sys.c	/^void iovec_free_data(struct iovec* iov, uint32_t nb)$/;"	f
+is_big_endian	.\util_sys.c	/^int is_big_endian(void)$/;"	f
+is_little_endian	.\util_sys.c	/^int is_little_endian(void)$/;"	f
+is_tmp	.\account.h	/^  int is_tmp; \/**< If account is a temporary account *\/$/;"	m	struct:account_desc
+key	.\account.h	/^  unsigned char key[16]; \/**< MD5 hash *\/$/;"	m	struct:account_desc
+key	.\allocation.h	/^  unsigned char key[16]; \/**< MD5 hash over username, realm and password *\/$/;"	m	struct:allocation_desc
+last_timedown	.\allocation.h	/^  struct timeval last_timedown ; \/**< Last time of bandwidth limit checking for$/;"	m	struct:allocation_desc	typeref:struct:allocation_desc::timeval
+last_timeup	.\allocation.h	/^  struct timeval last_timeup ; \/**< Last time of bandwidth limit checking for$/;"	m	struct:allocation_desc	typeref:struct:allocation_desc::timeval
+lifetime	.\protocol.h	/^  struct turn_attr_lifetime* lifetime; \/**< LIFETIME attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_lifetime
+list	.\account.h	/^  struct list_head list; \/**< For list management *\/$/;"	m	struct:account_desc	typeref:struct:account_desc::list_head
+list	.\allocation.h	/^  struct list_head list; \/**< For list management *\/$/;"	m	struct:allocation_channel	typeref:struct:allocation_channel::list_head
+list	.\allocation.h	/^  struct list_head list; \/**< For list management *\/$/;"	m	struct:allocation_desc	typeref:struct:allocation_desc::list_head
+list	.\allocation.h	/^  struct list_head list; \/**< For list management *\/$/;"	m	struct:allocation_permission	typeref:struct:allocation_permission::list_head
+list	.\allocation.h	/^  struct list_head list; \/**< For list management *\/$/;"	m	struct:allocation_tcp_relay	typeref:struct:allocation_tcp_relay::list_head
+list	.\allocation.h	/^  struct list_head list; \/**< For list management *\/$/;"	m	struct:allocation_token	typeref:struct:allocation_token::list_head
+list	.\tls_peer.c	/^  struct list_head list; \/**< For list management *\/$/;"	m	struct:ssl_peer	typeref:struct:ssl_peer::list_head	file:
+list	.\turnserver.h	/^  struct list_head list; \/**< For list management *\/$/;"	m	struct:denied_address	typeref:struct:denied_address::list_head
+list	.\turnserver.h	/^  struct list_head list; \/**< For list management *\/$/;"	m	struct:socket_desc	typeref:struct:socket_desc::list_head
+list2	.\allocation.h	/^  struct list_head list2; \/**< For list management (expired list) *\/$/;"	m	struct:allocation_channel	typeref:struct:allocation_channel::list_head
+list2	.\allocation.h	/^  struct list_head list2; \/**< For list management (expired list) *\/$/;"	m	struct:allocation_desc	typeref:struct:allocation_desc::list_head
+list2	.\allocation.h	/^  struct list_head list2; \/**< For list management (expired list) *\/$/;"	m	struct:allocation_permission	typeref:struct:allocation_permission::list_head
+list2	.\allocation.h	/^  struct list_head list2; \/**< For list management (expired list) *\/$/;"	m	struct:allocation_tcp_relay	typeref:struct:allocation_tcp_relay::list_head
+list2	.\allocation.h	/^  struct list_head list2; \/**< For list management (expired list) *\/$/;"	m	struct:allocation_token	typeref:struct:allocation_token::list_head
+list_get	.\list.h	161;"	d
+list_head	.\list.h	/^typedef struct list_head$/;"	s
+list_head	.\list.h	/^}list_head;$/;"	t	typeref:struct:list_head
+list_iterate	.\list.h	170;"	d
+list_iterate_safe	.\list.h	180;"	d
+list_size	.\list.h	/^static inline unsigned int list_size(struct list_head* head)$/;"	f
+listen_sockets	.\turnserver.c	/^struct listen_sockets$/;"	s	file:
+main	.\test_echo_server.c	/^int main(int argc, char** argv)$/;"	f
+main	.\test_turn_client.c	/^int main(int argc, char** argv)$/;"	f
+main	.\turnserver.c	/^int main(int argc, char** argv)$/;"	f
+mapped_addr	.\protocol.h	/^  struct turn_attr_mapped_address* mapped_addr; \/**< MAPPED-ADDRESS attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_mapped_address
+mask	.\turnserver.h	/^  uint8_t mask; \/**< Network mask of the address *\/$/;"	m	struct:denied_address
+md5_generate	.\util_crypto.c	/^int md5_generate(unsigned char* hash, const unsigned char* text, size_t len)$/;"	f
+message_integrity	.\protocol.h	/^  struct turn_attr_message_integrity* message_integrity; \/**< MESSAGE-INTEGRITY attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_message_integrity
+mode_t	.\util_sys.h	/^typedef int mode_t;$/;"	t
+msg	.\protocol.h	/^  struct turn_msg_hdr* msg; \/**< STUN\/TURN header *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_msg_hdr
+msg_len	.\turnserver.h	/^  size_t msg_len; \/**< Message length that is not complete *\/$/;"	m	struct:socket_desc
+msleep	.\util_sys.c	/^int msleep(unsigned long usec)$/;"	f
+next	.\list.h	/^  struct list_head *next; \/**< Next element in the list *\/$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+nonce	.\allocation.h	/^  unsigned char nonce[48]; \/**< Nonce of user *\/$/;"	m	struct:allocation_desc
+nonce	.\protocol.h	/^  struct turn_attr_nonce* nonce; \/**< NONCE attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_nonce
+opts	.\conf.c	/^static cfg_opt_t opts[]=$/;"	v	file:
+password	.\test_turn_client.c	/^  char* password; \/**< User password *\/$/;"	m	struct:client_configuration	file:
+peer_addr	.\allocation.h	/^  uint8_t peer_addr[16]; \/**< Peer address *\/$/;"	m	struct:allocation_channel
+peer_addr	.\allocation.h	/^  uint8_t peer_addr[16]; \/**< Peer address *\/$/;"	m	struct:allocation_permission
+peer_addr	.\allocation.h	/^  uint8_t peer_addr[16]; \/**< Peer address *\/$/;"	m	struct:allocation_tcp_relay
+peer_addr	.\protocol.h	/^  struct turn_attr_xor_peer_address* peer_addr[XOR_PEER_ADDRESS_MAX]; \/**< XOR-PEER-ADDRESS attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_xor_peer_address
+peer_address	.\test_turn_client.c	/^  char* peer_address; \/**< Peer address *\/$/;"	m	struct:client_configuration	file:
+peer_port	.\allocation.h	/^  uint16_t peer_port; \/**< Peer port *\/$/;"	m	struct:allocation_channel
+peer_port	.\allocation.h	/^  uint16_t peer_port; \/**< Peer port *\/$/;"	m	struct:allocation_tcp_relay
+peer_port	.\test_turn_client.c	/^  char* peer_port; \/**< Peer port *\/$/;"	m	struct:client_configuration	file:
+peer_sock	.\allocation.h	/^  int peer_sock; \/**< Peer data connection (server <-> peer) *\/$/;"	m	struct:allocation_tcp_relay
+peers_channels	.\allocation.h	/^  struct list_head peers_channels; \/**< List of channel to peer bindings *\/$/;"	m	struct:allocation_desc	typeref:struct:allocation_desc::list_head
+peers_permissions	.\allocation.h	/^  struct list_head peers_permissions; \/**< List of peers permissions *\/$/;"	m	struct:allocation_desc	typeref:struct:allocation_desc::list_head
+pid_t	.\util_sys.h	/^typedef int pid_t;$/;"	t
+port	.\turnserver.h	/^  uint16_t port; \/**< Port *\/$/;"	m	struct:denied_address
+prev	.\list.h	/^  struct list_head *prev; \/**< Previous element in the list *\/$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+private_key_file	.\test_turn_client.c	/^  char* private_key_file; \/**< SSL private key pathname *\/$/;"	m	struct:client_configuration	file:
+protocol	.\test_turn_client.c	/^  char* protocol; \/**< Transport protocol used (UDP, TCP, TLS or DTLS) *\/$/;"	m	struct:client_configuration	file:
+protocol_type	.\tls_peer.h	/^enum protocol_type$/;"	g
+pthread_cancel	.\dbg.h	198;"	d
+pthread_exit	.\dbg.h	185;"	d
+pthread_join	.\dbg.h	172;"	d
+pthread_mutex_lock	.\dbg.h	145;"	d
+pthread_mutex_unlock	.\dbg.h	158;"	d
+random_bytes_generate	.\util_crypto.c	/^int random_bytes_generate(uint8_t* id, size_t len)$/;"	f
+ready	.\allocation.h	/^  int ready; \/**< If remote peer is connected (i.e. connect() has succeed$/;"	m	struct:allocation_tcp_relay
+realm	.\account.h	/^  char realm[256]; \/**< Realm *\/$/;"	m	struct:account_desc
+realm	.\allocation.h	/^  char realm[256]; \/**< Realm of user *\/$/;"	m	struct:allocation_desc
+realm	.\protocol.h	/^  struct turn_attr_realm* realm; \/**< REALM attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_realm
+realm	.\test_turn_client.c	/^  char* realm; \/**< Realm *\/$/;"	m	struct:client_configuration	file:
+realtime_signal_handler	.\turnserver.c	/^static void realtime_signal_handler(int signo, siginfo_t* info, void* extra)$/;"	f	file:
+relay_protocol	.\test_turn_client.c	/^  char* relay_protocol; \/**< Protocol used to relay data (UDP or TCP) *\/$/;"	m	struct:client_configuration	file:
+relayed_addr	.\allocation.h	/^  struct sockaddr_storage relayed_addr; \/**< Relayed transport address *\/$/;"	m	struct:allocation_desc	typeref:struct:allocation_desc::sockaddr_storage
+relayed_addr	.\protocol.h	/^  struct turn_attr_xor_relayed_address* relayed_addr; \/**< XOR-RELAYED-ADDRESS attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_xor_relayed_address
+relayed_dtls	.\allocation.h	/^  int relayed_dtls; \/**< If allocation has been set in DTLS *\/$/;"	m	struct:allocation_desc
+relayed_sock	.\allocation.h	/^  int relayed_sock; \/**< Socket for the allocated transport address *\/$/;"	m	struct:allocation_desc
+relayed_sock_tcp	.\allocation.h	/^  int relayed_sock_tcp; \/**< Socket for the allocated transport address to$/;"	m	struct:allocation_desc
+relayed_tls	.\allocation.h	/^  int relayed_tls; \/**< If allocation has been set in TLS *\/$/;"	m	struct:allocation_desc
+relayed_transport_protocol	.\allocation.h	/^  int relayed_transport_protocol; \/**< Relayed transport protocol used *\/$/;"	m	struct:allocation_desc
+remote_peers	.\tls_peer.h	/^  struct list_head remote_peers; \/**< Remote peers *\/$/;"	m	struct:tls_peer	typeref:struct:tls_peer::list_head
+requested_addr_family	.\protocol.h	/^  struct turn_attr_requested_address_family* requested_addr_family; \/**< REQUESTED-ADDRESS-FAMILY attribute (RFC6156) *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_requested_address_family
+requested_transport	.\protocol.h	/^  struct turn_attr_requested_transport* requested_transport; \/**< REQUESTED-TRANSPORT attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_requested_transport
+reservation_token	.\protocol.h	/^  struct turn_attr_reservation_token* reservation_token; \/**< RESERVATION-TOKEN attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_reservation_token
+s_snprintf	.\util_sys.h	/^static inline int s_snprintf(char* str, size_t size, const char* format, ...)$/;"	f
+s_strncpy	.\util_sys.h	/^static inline char* s_strncpy(char* dest, const char* src, size_t n)$/;"	f
+s_strncpy	.\util_sys.h	348;"	d
+s_strncpy	.\util_sys.h	357;"	d
+seed_prng_cleanup	.\util_crypto.c	/^void seed_prng_cleanup(void)$/;"	f
+seed_prng_init	.\util_crypto.c	/^int seed_prng_init(void)$/;"	f
+server_addr	.\allocation.h	/^  struct sockaddr_storage server_addr; \/**< Server address *\/$/;"	m	struct:allocation_tuple	typeref:struct:allocation_tuple::sockaddr_storage
+server_address	.\test_turn_client.c	/^  char* server_address; \/**< TURN server address *\/$/;"	m	struct:client_configuration	file:
+sfd_has_data	.\util_sys.h	/^static inline int sfd_has_data(int sock, int nsock, sfd_set* fdsr)$/;"	f
+sfd_set	.\util_sys.h	/^typedef struct sfd_set$/;"	s
+sfd_set	.\util_sys.h	/^}sfd_set;$/;"	t	typeref:struct:sfd_set
+sha1_generate	.\util_crypto.c	/^int sha1_generate(unsigned char* hash, const unsigned char* text, size_t len)$/;"	f
+signal_handler	.\test_echo_server.c	/^static void signal_handler(int code)$/;"	f	file:
+signal_handler	.\turnserver.c	/^static void signal_handler(int code)$/;"	f	file:
+snprintf	.\test_turn_client.c	56;"	d	file:
+snprintf	.\tls_peer.c	80;"	d	file:
+sock	.\allocation.h	/^  int sock; \/**< The opened socket *\/$/;"	m	struct:allocation_token
+sock	.\mod_tmpuser.c	/^  int sock; \/**< Localhost socket *\/$/;"	m	struct:tmpuser	file:
+sock	.\tls_peer.h	/^  int sock; \/**< Server socket descriptor *\/$/;"	m	struct:tls_peer
+sock	.\turnserver.h	/^  int sock; \/**< Socket descriptor *\/$/;"	m	struct:socket_desc
+sock_dtls	.\turnserver.c	/^  struct tls_peer* sock_dtls; \/**< Listen DTLS socket *\/$/;"	m	struct:listen_sockets	typeref:struct:listen_sockets::tls_peer	file:
+sock_readv	.\util_sys.c	/^ssize_t sock_readv(int fd, const struct iovec *iov, size_t iovcnt,$/;"	f
+sock_tcp	.\turnserver.c	/^  int sock_tcp; \/**< Listen TCP socket *\/$/;"	m	struct:listen_sockets	file:
+sock_tls	.\turnserver.c	/^  struct tls_peer* sock_tls; \/**< Listen TLS socket *\/$/;"	m	struct:listen_sockets	typeref:struct:listen_sockets::tls_peer	file:
+sock_udp	.\turnserver.c	/^  int sock_udp; \/**< Listen UDP socket *\/$/;"	m	struct:listen_sockets	file:
+sock_writev	.\util_sys.c	/^ssize_t sock_writev(int fd, const struct iovec *iov, size_t iovcnt,$/;"	f
+sockaddr_get_size	.\turnserver.c	/^static inline socklen_t sockaddr_get_size(struct sockaddr_storage* ss)$/;"	f	file:
+socket_create	.\tls_peer.c	/^int socket_create(enum protocol_type type, const char* addr, uint16_t port,$/;"	f
+socket_desc	.\turnserver.h	/^struct socket_desc$/;"	s
+socklen_t	.\tls_peer.h	/^typedef int socklen_t;$/;"	t
+socklen_t	.\util_sys.h	/^typedef int socklen_t;$/;"	t
+software	.\protocol.h	/^  struct turn_attr_software* software; \/**< SOFTWARE attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_software
+ssize_t	.\tls_peer.h	/^typedef int ssize_t;$/;"	t
+ssize_t	.\util_sys.h	/^typedef int ssize_t;$/;"	t
+ssl	.\tls_peer.c	/^  SSL* ssl; \/**< The remote peer *\/$/;"	m	struct:ssl_peer	file:
+ssl_peer	.\tls_peer.c	/^struct ssl_peer$/;"	s	file:
+ssl_peer_free	.\tls_peer.c	/^static void ssl_peer_free(struct ssl_peer** peer)$/;"	f	file:
+ssl_peer_new	.\tls_peer.c	/^static struct ssl_peer* ssl_peer_new(struct sockaddr* addr, socklen_t addrlen,$/;"	f	file:
+state	.\account.h	/^  enum account_state state; \/**< Access state *\/$/;"	m	struct:account_desc	typeref:enum:account_desc::account_state
+strdup	.\util_sys.c	/^char* strdup(const char* str)$/;"	f
+tcp_relays	.\allocation.h	/^  struct list_head tcp_relays; \/**< TCP relays information *\/$/;"	m	struct:allocation_desc	typeref:struct:allocation_desc::list_head
+tls	.\turnserver.h	/^  int tls; \/**< If socket uses TLS *\/$/;"	m	struct:socket_desc
+tls_peer	.\tls_peer.h	/^struct tls_peer$/;"	s
+tls_peer_add_connection	.\tls_peer.c	/^static void tls_peer_add_connection(struct tls_peer* peer,$/;"	f	file:
+tls_peer_clear_connection	.\tls_peer.c	/^static void tls_peer_clear_connection(struct tls_peer* peer)$/;"	f	file:
+tls_peer_do_handshake	.\tls_peer.c	/^int tls_peer_do_handshake(struct tls_peer* peer, const struct sockaddr* daddr,$/;"	f
+tls_peer_find_connection	.\tls_peer.c	/^static struct ssl_peer* tls_peer_find_connection(struct tls_peer* peer,$/;"	f	file:
+tls_peer_free	.\tls_peer.c	/^void tls_peer_free(struct tls_peer** peer)$/;"	f
+tls_peer_is_encrypted	.\tls_peer.c	/^int tls_peer_is_encrypted(const char* buf, size_t len)$/;"	f
+tls_peer_load_certificates	.\tls_peer.c	/^static int tls_peer_load_certificates(SSL_CTX* ctx, const char* ca_file,$/;"	f	file:
+tls_peer_manage_error	.\tls_peer.c	/^static void tls_peer_manage_error(struct tls_peer* peer, struct ssl_peer* ssl,$/;"	f	file:
+tls_peer_new	.\tls_peer.c	/^struct tls_peer* tls_peer_new(enum protocol_type type, const char* addr,$/;"	f
+tls_peer_print_connection	.\tls_peer.c	/^void tls_peer_print_connection(struct tls_peer* peer)$/;"	f
+tls_peer_read	.\tls_peer.c	/^static ssize_t tls_peer_read(struct tls_peer* peer, char* buf, ssize_t buflen,$/;"	f	file:
+tls_peer_remove_connection	.\tls_peer.c	/^static void tls_peer_remove_connection(struct tls_peer* peer,$/;"	f	file:
+tls_peer_setup	.\tls_peer.c	/^static int tls_peer_setup(struct tls_peer* peer, enum protocol_type type,$/;"	f	file:
+tls_peer_tcp_read	.\tls_peer.c	/^ssize_t tls_peer_tcp_read(struct tls_peer* peer, char* buf, ssize_t buflen,$/;"	f
+tls_peer_udp_read	.\tls_peer.c	/^ssize_t tls_peer_udp_read(struct tls_peer* peer, char* buf, ssize_t buflen,$/;"	f
+tls_peer_write	.\tls_peer.c	/^ssize_t tls_peer_write(struct tls_peer* peer, const char* buf, ssize_t buflen,$/;"	f
+tmpuser	.\mod_tmpuser.c	/^struct tmpuser$/;"	s	file:
+tmpuser_add_tcp_client	.\mod_tmpuser.c	/^void tmpuser_add_tcp_client(struct socket_desc* desc)$/;"	f
+tmpuser_create	.\mod_tmpuser.c	/^static int tmpuser_create(const char* user, const char* password,$/;"	f	file:
+tmpuser_delete	.\mod_tmpuser.c	/^static int tmpuser_delete(const char* user)$/;"	f	file:
+tmpuser_destroy	.\mod_tmpuser.c	/^void tmpuser_destroy(void)$/;"	f
+tmpuser_get_socket	.\mod_tmpuser.c	/^int tmpuser_get_socket()$/;"	f
+tmpuser_get_tcp_clients	.\mod_tmpuser.c	/^struct list_head* tmpuser_get_tcp_clients(void)$/;"	f
+tmpuser_init	.\mod_tmpuser.c	/^int tmpuser_init(struct list_head* account_list)$/;"	f
+tmpuser_process_msg	.\mod_tmpuser.c	/^int tmpuser_process_msg(const char* buf, ssize_t len)$/;"	f
+tmpuser_remove_tcp_client	.\mod_tmpuser.c	/^void tmpuser_remove_tcp_client(struct socket_desc* desc)$/;"	f
+transaction_id	.\allocation.h	/^  uint8_t transaction_id[12]; \/**< Transaction ID of the Allocate Request *\/$/;"	m	struct:allocation_desc
+transport_protocol	.\allocation.h	/^  int transport_protocol; \/**< Transport protocol *\/$/;"	m	struct:allocation_tuple
+tuple	.\allocation.h	/^  struct allocation_tuple tuple; \/**< 5-tuple *\/$/;"	m	struct:allocation_desc	typeref:struct:allocation_desc::allocation_tuple
+tuple_sock	.\allocation.h	/^  int tuple_sock; \/**< Socket for the connection between the TURN server and the$/;"	m	struct:allocation_desc
+turn_add_fingerprint	.\protocol.c	/^int turn_add_fingerprint(struct iovec* iov, size_t* index)$/;"	f
+turn_add_message_integrity	.\protocol.c	/^int turn_add_message_integrity(struct iovec* iov, size_t* index,$/;"	f
+turn_attr_address	.\turn.h	/^  uint8_t turn_attr_address[]; \/**< Variable-size address *\/$/;"	m	struct:turn_attr_alternate_server
+turn_attr_address	.\turn.h	/^  uint8_t turn_attr_address[]; \/**< Variable-size address *\/$/;"	m	struct:turn_attr_mapped_address
+turn_attr_address	.\turn.h	/^  uint8_t turn_attr_address[]; \/**< Variable-size address *\/$/;"	m	struct:turn_attr_xor_mapped_address
+turn_attr_address	.\turn.h	/^  uint8_t turn_attr_address[]; \/**< Variable-size address *\/$/;"	m	struct:turn_attr_xor_peer_address
+turn_attr_address	.\turn.h	/^  uint8_t turn_attr_address[]; \/**< Variable-size address *\/$/;"	m	struct:turn_attr_xor_relayed_address
+turn_attr_address_create	.\protocol.c	/^static struct turn_attr_hdr* turn_attr_address_create(uint16_t type, const struct sockaddr* address, struct iovec* iov)$/;"	f	file:
+turn_attr_alternate_server	.\turn.h	/^struct turn_attr_alternate_server$/;"	s
+turn_attr_alternate_server_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_alternate_server_create($/;"	f
+turn_attr_attributes	.\turn.h	/^  uint8_t turn_attr_attributes[]; \/**< Multiple of 4 attributes (each 16 bit) *\/$/;"	m	struct:turn_attr_unknown_attribute
+turn_attr_channel_number	.\turn.h	/^struct turn_attr_channel_number$/;"	s
+turn_attr_channel_number_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_channel_number_create(uint16_t number,$/;"	f
+turn_attr_connection_id	.\turn.h	/^struct turn_attr_connection_id$/;"	s
+turn_attr_connection_id_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_connection_id_create(uint32_t id,$/;"	f
+turn_attr_crc	.\turn.h	/^  uint32_t turn_attr_crc; \/**< CRC-32 *\/$/;"	m	struct:turn_attr_fingerprint
+turn_attr_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_create(uint16_t type, uint16_t len,$/;"	f
+turn_attr_data	.\turn.h	/^  uint32_t turn_attr_data[]; \/**< Raw data payload *\/$/;"	m	struct:turn_attr_data
+turn_attr_data	.\turn.h	/^struct turn_attr_data$/;"	s
+turn_attr_data_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_data_create(const void* data, size_t datalen,$/;"	f
+turn_attr_dont_fragment	.\turn.h	/^struct turn_attr_dont_fragment$/;"	s
+turn_attr_dont_fragment_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_dont_fragment_create(struct iovec* iov)$/;"	f
+turn_attr_error_code	.\turn.h	/^struct turn_attr_error_code$/;"	s
+turn_attr_error_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_error_create(uint16_t code, const char* reason,$/;"	f
+turn_attr_even_port	.\turn.h	/^struct turn_attr_even_port$/;"	s
+turn_attr_even_port_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_even_port_create(uint8_t flags,$/;"	f
+turn_attr_family	.\turn.h	/^  uint32_t turn_attr_family : 8; \/**<  Family (IPv4 or IPv6) requested *\/$/;"	m	struct:turn_attr_requested_address_family
+turn_attr_family	.\turn.h	/^  uint8_t turn_attr_family; \/**< Family: 0x01 = IPv4, 0x02 = IPv6 *\/$/;"	m	struct:turn_attr_alternate_server
+turn_attr_family	.\turn.h	/^  uint8_t turn_attr_family; \/**< Family: 0x01 = IPv4, 0x02 = IPv6 *\/$/;"	m	struct:turn_attr_mapped_address
+turn_attr_family	.\turn.h	/^  uint8_t turn_attr_family; \/**< Family: 0x01 = IPv4, 0x02 = IPv6 *\/$/;"	m	struct:turn_attr_xor_mapped_address
+turn_attr_family	.\turn.h	/^  uint8_t turn_attr_family; \/**< Family: 0x01 = IPv4, 0x02 = IPv6 *\/$/;"	m	struct:turn_attr_xor_peer_address
+turn_attr_family	.\turn.h	/^  uint8_t turn_attr_family; \/**< Family: 0x01 = IPv4, 0x02 = IPv6 *\/$/;"	m	struct:turn_attr_xor_relayed_address
+turn_attr_fingerprint	.\turn.h	/^struct turn_attr_fingerprint$/;"	s
+turn_attr_fingerprint_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_fingerprint_create(uint32_t fingerprint,$/;"	f
+turn_attr_flags	.\turn.h	/^  uint8_t turn_attr_flags; \/**< Flags (just R flag are defined in RFC5766) *\/$/;"	m	struct:turn_attr_even_port
+turn_attr_hdr	.\turn.h	/^struct turn_attr_hdr$/;"	s
+turn_attr_hmac	.\turn.h	/^  uint8_t turn_attr_hmac[20]; \/**< HMAC value *\/$/;"	m	struct:turn_attr_message_integrity
+turn_attr_id	.\turn.h	/^  uint32_t turn_attr_id; \/**<  Connection ID *\/$/;"	m	struct:turn_attr_connection_id
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_alternate_server
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_channel_number
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_connection_id
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_data
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_dont_fragment
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_error_code
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_even_port
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_fingerprint
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_hdr
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_lifetime
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_mapped_address
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_message_integrity
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_nonce
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_realm
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_requested_address_family
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_requested_transport
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_reservation_token
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_software
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_unknown_attribute
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_username
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_xor_mapped_address
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_xor_peer_address
+turn_attr_len	.\turn.h	/^  uint16_t turn_attr_len; \/**< Length of "value" *\/$/;"	m	struct:turn_attr_xor_relayed_address
+turn_attr_lifetime	.\turn.h	/^  uint32_t turn_attr_lifetime; \/**< Lifetime of the binding *\/$/;"	m	struct:turn_attr_lifetime
+turn_attr_lifetime	.\turn.h	/^struct turn_attr_lifetime$/;"	s
+turn_attr_lifetime_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_lifetime_create(uint32_t lifetime,$/;"	f
+turn_attr_mapped_address	.\turn.h	/^struct turn_attr_mapped_address$/;"	s
+turn_attr_mapped_address_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_mapped_address_create($/;"	f
+turn_attr_message_integrity	.\turn.h	/^struct turn_attr_message_integrity$/;"	s
+turn_attr_message_integrity_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_message_integrity_create(const uint8_t* hmac,$/;"	f
+turn_attr_nonce	.\turn.h	/^  uint8_t turn_attr_nonce[]; \/**< Nonce *\/$/;"	m	struct:turn_attr_nonce
+turn_attr_nonce	.\turn.h	/^struct turn_attr_nonce$/;"	s
+turn_attr_nonce_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_nonce_create(const uint8_t* nonce, size_t len,$/;"	f
+turn_attr_number	.\turn.h	/^  uint16_t turn_attr_number; \/**< Channel number value *\/$/;"	m	struct:turn_attr_channel_number
+turn_attr_number	.\turn.h	/^  uint32_t turn_attr_number : 8; \/**< Number (0 - 99) *\/$/;"	m	struct:turn_attr_error_code
+turn_attr_port	.\turn.h	/^  uint16_t turn_attr_port; \/**< Port in network byte order *\/$/;"	m	struct:turn_attr_alternate_server
+turn_attr_port	.\turn.h	/^  uint16_t turn_attr_port; \/**< Port in network byte order *\/$/;"	m	struct:turn_attr_mapped_address
+turn_attr_port	.\turn.h	/^  uint16_t turn_attr_port; \/**< Port in network byte order *\/$/;"	m	struct:turn_attr_xor_mapped_address
+turn_attr_port	.\turn.h	/^  uint16_t turn_attr_port; \/**< Port in network byte order *\/$/;"	m	struct:turn_attr_xor_peer_address
+turn_attr_port	.\turn.h	/^  uint16_t turn_attr_port; \/**< Port in network byte order *\/$/;"	m	struct:turn_attr_xor_relayed_address
+turn_attr_protocol	.\turn.h	/^  uint32_t turn_attr_protocol : 8; \/**< Transport protocol number *\/$/;"	m	struct:turn_attr_requested_transport
+turn_attr_realm	.\turn.h	/^  uint8_t turn_attr_realm[]; \/**< Realm *\/$/;"	m	struct:turn_attr_realm
+turn_attr_realm	.\turn.h	/^struct turn_attr_realm$/;"	s
+turn_attr_realm_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_realm_create(const char* realm, size_t len,$/;"	f
+turn_attr_reason	.\turn.h	/^  uint8_t turn_attr_reason[]; \/**< Variable-size reason *\/$/;"	m	struct:turn_attr_error_code
+turn_attr_requested_address_family	.\turn.h	/^struct turn_attr_requested_address_family$/;"	s
+turn_attr_requested_address_family_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_requested_address_family_create(uint8_t family,$/;"	f
+turn_attr_requested_transport	.\turn.h	/^struct turn_attr_requested_transport$/;"	s
+turn_attr_requested_transport_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_requested_transport_create(uint8_t protocol,$/;"	f
+turn_attr_reservation_token	.\turn.h	/^struct turn_attr_reservation_token$/;"	s
+turn_attr_reservation_token_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_reservation_token_create(const uint8_t* token,$/;"	f
+turn_attr_reserved	.\turn.h	/^  uint32_t turn_attr_reserved : 24; \/**< Reserved *\/$/;"	m	struct:turn_attr_requested_address_family
+turn_attr_reserved	.\turn.h	/^  uint32_t turn_attr_reserved : 24; \/**< Reserved, must be 0 *\/$/;"	m	struct:turn_attr_requested_transport
+turn_attr_reserved	.\turn.h	/^  uint8_t turn_attr_reserved; \/**< Ignored *\/$/;"	m	struct:turn_attr_alternate_server
+turn_attr_reserved	.\turn.h	/^  uint8_t turn_attr_reserved; \/**< Ignored *\/$/;"	m	struct:turn_attr_mapped_address
+turn_attr_reserved	.\turn.h	/^  uint8_t turn_attr_reserved; \/**< Ignored *\/$/;"	m	struct:turn_attr_xor_mapped_address
+turn_attr_reserved	.\turn.h	/^  uint8_t turn_attr_reserved; \/**< Ignored *\/$/;"	m	struct:turn_attr_xor_peer_address
+turn_attr_reserved	.\turn.h	/^  uint8_t turn_attr_reserved; \/**< Ignored *\/$/;"	m	struct:turn_attr_xor_relayed_address
+turn_attr_reserved_class	.\turn.h	/^  uint32_t turn_attr_reserved_class : 24; \/**< 21 bit reserved (value = 0) and 3$/;"	m	struct:turn_attr_error_code
+turn_attr_rffu	.\turn.h	/^  uint16_t turn_attr_rffu; \/**< Reserved For Future Use, must be 0 *\/$/;"	m	struct:turn_attr_channel_number
+turn_attr_software	.\turn.h	/^  uint32_t turn_attr_software[]; \/**< Textual description of the software *\/$/;"	m	struct:turn_attr_software
+turn_attr_software	.\turn.h	/^struct turn_attr_software$/;"	s
+turn_attr_software_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_software_create(const char* software,$/;"	f
+turn_attr_token	.\turn.h	/^  uint8_t turn_attr_token[8]; \/**< Token *\/$/;"	m	struct:turn_attr_reservation_token
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_alternate_server
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_channel_number
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_connection_id
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_data
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_dont_fragment
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_error_code
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_even_port
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_fingerprint
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_hdr
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_lifetime
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_mapped_address
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_message_integrity
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_nonce
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_realm
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_requested_address_family
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_requested_transport
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_reservation_token
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_software
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_unknown_attribute
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_username
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_xor_mapped_address
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_xor_peer_address
+turn_attr_type	.\turn.h	/^  uint16_t turn_attr_type; \/**< Attribute type *\/$/;"	m	struct:turn_attr_xor_relayed_address
+turn_attr_unknown_attribute	.\turn.h	/^struct turn_attr_unknown_attribute$/;"	s
+turn_attr_unknown_attributes_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_unknown_attributes_create($/;"	f
+turn_attr_username	.\turn.h	/^  uint8_t turn_attr_username[]; \/**< Username *\/$/;"	m	struct:turn_attr_username
+turn_attr_username	.\turn.h	/^struct turn_attr_username$/;"	s
+turn_attr_username_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_username_create(const char* username,$/;"	f
+turn_attr_value	.\turn.h	/^  uint8_t turn_attr_value[]; \/**< Variable-size value *\/$/;"	m	struct:turn_attr_hdr
+turn_attr_xor_address_create	.\protocol.c	/^static struct turn_attr_hdr* turn_attr_xor_address_create(uint16_t type,$/;"	f	file:
+turn_attr_xor_mapped_address	.\turn.h	/^struct turn_attr_xor_mapped_address$/;"	s
+turn_attr_xor_mapped_address_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_xor_mapped_address_create($/;"	f
+turn_attr_xor_peer_address	.\turn.h	/^struct turn_attr_xor_peer_address$/;"	s
+turn_attr_xor_peer_address_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_xor_peer_address_create($/;"	f
+turn_attr_xor_relayed_address	.\turn.h	/^struct turn_attr_xor_relayed_address$/;"	s
+turn_attr_xor_relayed_address_create	.\protocol.c	/^struct turn_attr_hdr* turn_attr_xor_relayed_address_create($/;"	f
+turn_calculate_authentication_key	.\protocol.c	/^int turn_calculate_authentication_key(const char* username, const char* realm,$/;"	f
+turn_calculate_fingerprint	.\protocol.c	/^uint32_t turn_calculate_fingerprint(const struct iovec* iov, size_t iovlen)$/;"	f
+turn_calculate_integrity_hmac	.\protocol.c	/^int turn_calculate_integrity_hmac(const unsigned char* buf, size_t len,$/;"	f
+turn_calculate_integrity_hmac_iov	.\protocol.c	/^int turn_calculate_integrity_hmac_iov(const struct iovec* iov, size_t iovlen,$/;"	f
+turn_channel_data	.\turn.h	/^  uint8_t turn_channel_data[]; \/**< Data *\/$/;"	m	struct:turn_channel_data
+turn_channel_data	.\turn.h	/^struct turn_channel_data$/;"	s
+turn_channel_len	.\turn.h	/^  uint16_t turn_channel_len; \/**< Length of the data *\/$/;"	m	struct:turn_channel_data
+turn_channel_number	.\turn.h	/^  uint16_t turn_channel_number; \/**< Channel number *\/$/;"	m	struct:turn_channel_data
+turn_error_response_400	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_400(int method, const uint8_t* id,$/;"	f
+turn_error_response_401	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_401(int method, const uint8_t* id,$/;"	f
+turn_error_response_403	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_403(int method, const uint8_t* id,$/;"	f
+turn_error_response_420	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_420(int method, const uint8_t* id,$/;"	f
+turn_error_response_437	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_437(int method, const uint8_t* id,$/;"	f
+turn_error_response_438	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_438(int method, const uint8_t* id,$/;"	f
+turn_error_response_440	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_440(int method, const uint8_t* id,$/;"	f
+turn_error_response_441	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_441(int method, const uint8_t* id,$/;"	f
+turn_error_response_442	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_442(int method, const uint8_t* id,$/;"	f
+turn_error_response_443	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_443(int method, const uint8_t* id,$/;"	f
+turn_error_response_446	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_446(int method, const uint8_t* id,$/;"	f
+turn_error_response_447	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_447(int method, const uint8_t* id,$/;"	f
+turn_error_response_486	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_486(int method, const uint8_t* id,$/;"	f
+turn_error_response_500	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_500(int method, const uint8_t* id,$/;"	f
+turn_error_response_508	.\protocol.c	/^struct turn_msg_hdr* turn_error_response_508(int method, const uint8_t* id,$/;"	f
+turn_generate_nonce	.\protocol.c	/^int turn_generate_nonce(uint8_t* nonce, size_t len, uint8_t* key,$/;"	f
+turn_generate_transaction_id	.\protocol.c	/^int turn_generate_transaction_id(uint8_t* id)$/;"	f
+turn_message	.\protocol.h	/^struct turn_message$/;"	s
+turn_msg_allocate_error_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_allocate_error_create(uint16_t len,$/;"	f
+turn_msg_allocate_request_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_allocate_request_create(uint16_t len,$/;"	f
+turn_msg_allocate_response_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_allocate_response_create(uint16_t len,$/;"	f
+turn_msg_binding_error_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_binding_error_create(uint16_t len,$/;"	f
+turn_msg_binding_request_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_binding_request_create(uint16_t len,$/;"	f
+turn_msg_binding_response_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_binding_response_create(uint16_t len,$/;"	f
+turn_msg_channelbind_error_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_channelbind_error_create(uint16_t len,$/;"	f
+turn_msg_channelbind_request_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_channelbind_request_create(uint16_t len,$/;"	f
+turn_msg_channelbind_response_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_channelbind_response_create(uint16_t len,$/;"	f
+turn_msg_connect_error_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_connect_error_create(uint16_t len,$/;"	f
+turn_msg_connect_request_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_connect_request_create(uint16_t len,$/;"	f
+turn_msg_connect_response_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_connect_response_create(uint16_t len,$/;"	f
+turn_msg_connectionattempt_indication_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_connectionattempt_indication_create(uint16_t len,$/;"	f
+turn_msg_connectionbind_error_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_connectionbind_error_create(uint16_t len,$/;"	f
+turn_msg_connectionbind_request_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_connectionbind_request_create(uint16_t len,$/;"	f
+turn_msg_connectionbind_response_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_connectionbind_response_create(uint16_t len,$/;"	f
+turn_msg_cookie	.\turn.h	/^  uint32_t turn_msg_cookie; \/**< Magic Cookie *\/$/;"	m	struct:turn_msg_hdr
+turn_msg_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_create(uint16_t type, uint16_t len,$/;"	f
+turn_msg_createpermission_error_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_createpermission_error_create(uint16_t len,$/;"	f
+turn_msg_createpermission_request_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_createpermission_request_create(uint16_t len,$/;"	f
+turn_msg_createpermission_response_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_createpermission_response_create(uint16_t len,$/;"	f
+turn_msg_data_indication_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_data_indication_create(uint16_t len,$/;"	f
+turn_msg_hdr	.\turn.h	/^struct turn_msg_hdr$/;"	s
+turn_msg_id	.\turn.h	/^  uint8_t turn_msg_id[12]; \/**< Transaction ID (96 bit) *\/$/;"	m	struct:turn_msg_hdr
+turn_msg_len	.\turn.h	/^  uint16_t turn_msg_len; \/**< Message length (without the 20 bytes of this$/;"	m	struct:turn_msg_hdr
+turn_msg_refresh_error_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_refresh_error_create(uint16_t len,$/;"	f
+turn_msg_refresh_request_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_refresh_request_create(uint16_t len,$/;"	f
+turn_msg_refresh_response_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_refresh_response_create(uint16_t len,$/;"	f
+turn_msg_send_indication_create	.\protocol.c	/^struct turn_msg_hdr* turn_msg_send_indication_create(uint16_t len,$/;"	f
+turn_msg_type	.\turn.h	/^  uint16_t turn_msg_type; \/**< Message type (first 2 bit are always set to 0) *\/$/;"	m	struct:turn_msg_hdr
+turn_nonce_is_stale	.\protocol.c	/^int turn_nonce_is_stale(uint8_t* nonce, size_t len, unsigned char* key,$/;"	f
+turn_parse_message	.\protocol.c	/^int turn_parse_message(const char* msg, ssize_t msg_len,$/;"	f
+turn_send_message	.\protocol.c	/^int turn_send_message(int transport_protocol, int sock, struct tls_peer* speer,$/;"	f
+turn_tcp_send	.\protocol.c	/^int turn_tcp_send(int sock, const struct iovec* iov, size_t iovlen)$/;"	f
+turn_tls_send	.\protocol.c	/^int turn_tls_send(struct tls_peer* peer, const struct sockaddr* addr,$/;"	f
+turn_udp_send	.\protocol.c	/^int turn_udp_send(int sock, const struct sockaddr* addr, socklen_t addr_size,$/;"	f
+turn_xor_address_cookie	.\protocol.c	/^int turn_xor_address_cookie(int family, uint8_t* peer_addr, uint16_t* peer_port,$/;"	f
+turnserver_block_realtime_signal	.\turnserver.c	/^static inline void turnserver_block_realtime_signal(void)$/;"	f	file:
+turnserver_cfg_account_db_address	.\conf.c	/^char* turnserver_cfg_account_db_address(void)$/;"	f
+turnserver_cfg_account_db_login	.\conf.c	/^char* turnserver_cfg_account_db_login(void)$/;"	f
+turnserver_cfg_account_db_name	.\conf.c	/^char* turnserver_cfg_account_db_name(void)$/;"	f
+turnserver_cfg_account_db_password	.\conf.c	/^char* turnserver_cfg_account_db_password(void)$/;"	f
+turnserver_cfg_account_db_port	.\conf.c	/^uint16_t turnserver_cfg_account_db_port(void)$/;"	f
+turnserver_cfg_account_file	.\conf.c	/^char* turnserver_cfg_account_file(void)$/;"	f
+turnserver_cfg_account_method	.\conf.c	/^char* turnserver_cfg_account_method(void)$/;"	f
+turnserver_cfg_allocation_lifetime	.\conf.c	/^uint16_t turnserver_cfg_allocation_lifetime(void)$/;"	f
+turnserver_cfg_bandwidth_per_allocation	.\conf.c	/^uint16_t turnserver_cfg_bandwidth_per_allocation(void)$/;"	f
+turnserver_cfg_ca_file	.\conf.c	/^char* turnserver_cfg_ca_file(void)$/;"	f
+turnserver_cfg_cert_file	.\conf.c	/^char* turnserver_cfg_cert_file(void)$/;"	f
+turnserver_cfg_daemon	.\conf.c	/^int turnserver_cfg_daemon(void)$/;"	f
+turnserver_cfg_dtls	.\conf.c	/^int turnserver_cfg_dtls(void)$/;"	f
+turnserver_cfg_free	.\conf.c	/^void turnserver_cfg_free(void)$/;"	f
+turnserver_cfg_listen_address	.\conf.c	/^char* turnserver_cfg_listen_address(void)$/;"	f
+turnserver_cfg_listen_addressv6	.\conf.c	/^char* turnserver_cfg_listen_addressv6(void)$/;"	f
+turnserver_cfg_max_client	.\conf.c	/^uint16_t turnserver_cfg_max_client(void)$/;"	f
+turnserver_cfg_max_port	.\conf.c	/^uint16_t turnserver_cfg_max_port(void)$/;"	f
+turnserver_cfg_max_relay_per_username	.\conf.c	/^uint16_t turnserver_cfg_max_relay_per_username(void)$/;"	f
+turnserver_cfg_min_port	.\conf.c	/^uint16_t turnserver_cfg_min_port(void)$/;"	f
+turnserver_cfg_mod_tmpuser	.\conf.c	/^int turnserver_cfg_mod_tmpuser(void)$/;"	f
+turnserver_cfg_nonce_key	.\conf.c	/^char* turnserver_cfg_nonce_key(void)$/;"	f
+turnserver_cfg_parse	.\conf.c	/^int turnserver_cfg_parse(const char* file, struct list_head* denied_address_list)$/;"	f
+turnserver_cfg_print	.\conf.c	/^void turnserver_cfg_print(void)$/;"	f
+turnserver_cfg_private_key_file	.\conf.c	/^char* turnserver_cfg_private_key_file(void)$/;"	f
+turnserver_cfg_realm	.\conf.c	/^char* turnserver_cfg_realm(void)$/;"	f
+turnserver_cfg_restricted_bandwidth	.\conf.c	/^uint32_t turnserver_cfg_restricted_bandwidth(void)$/;"	f
+turnserver_cfg_tcp_buffer_size	.\conf.c	/^uint32_t turnserver_cfg_tcp_buffer_size(void)$/;"	f
+turnserver_cfg_tcp_buffer_userspace	.\conf.c	/^int turnserver_cfg_tcp_buffer_userspace(void)$/;"	f
+turnserver_cfg_tcp_port	.\conf.c	/^uint16_t turnserver_cfg_tcp_port(void)$/;"	f
+turnserver_cfg_tls	.\conf.c	/^int turnserver_cfg_tls(void)$/;"	f
+turnserver_cfg_tls_port	.\conf.c	/^uint16_t turnserver_cfg_tls_port(void)$/;"	f
+turnserver_cfg_turn_tcp	.\conf.c	/^int turnserver_cfg_turn_tcp(void)$/;"	f
+turnserver_cfg_udp_port	.\conf.c	/^uint16_t turnserver_cfg_udp_port(void)$/;"	f
+turnserver_cfg_unpriv_user	.\conf.c	/^char* turnserver_cfg_unpriv_user(void)$/;"	f
+turnserver_check_bandwidth_limit	.\turnserver.c	/^static int turnserver_check_bandwidth_limit(struct allocation_desc* desc,$/;"	f	file:
+turnserver_check_relay_address	.\turnserver.c	/^static int turnserver_check_relay_address(char* listen_address,$/;"	f	file:
+turnserver_cleanup	.\turnserver.c	/^static void turnserver_cleanup(void* arg)$/;"	f	file:
+turnserver_disable_core_dump	.\turnserver.c	/^static void turnserver_disable_core_dump(void)$/;"	f	file:
+turnserver_handle_tcp_accept	.\turnserver.c	/^static void turnserver_handle_tcp_accept(int sock,$/;"	f	file:
+turnserver_handle_tcp_connect	.\turnserver.c	/^static int turnserver_handle_tcp_connect(int sock,$/;"	f	file:
+turnserver_handle_tcp_incoming_connection	.\turnserver.c	/^static void turnserver_handle_tcp_incoming_connection(int sock,$/;"	f	file:
+turnserver_is_address_denied	.\turnserver.c	/^static int turnserver_is_address_denied(const uint8_t* addr, size_t addrlen,$/;"	f	file:
+turnserver_is_ipv6_tunneled_address	.\turnserver.c	/^static int turnserver_is_ipv6_tunneled_address(const uint8_t* addr,$/;"	f	file:
+turnserver_listen_recv	.\turnserver.c	/^static int turnserver_listen_recv(int transport_protocol, int sock,$/;"	f	file:
+turnserver_main	.\turnserver.c	/^static void turnserver_main(struct listen_sockets* sockets,$/;"	f	file:
+turnserver_parse_cmdline	.\turnserver.c	/^static void turnserver_parse_cmdline(int argc, char** argv,$/;"	f	file:
+turnserver_print_help	.\turnserver.c	/^static void turnserver_print_help(const char* name, const char* version)$/;"	f	file:
+turnserver_process_allocate_request	.\turnserver.c	/^static int turnserver_process_allocate_request(int transport_protocol, int sock,$/;"	f	file:
+turnserver_process_binding_request	.\turnserver.c	/^static int turnserver_process_binding_request(int transport_protocol, int sock,$/;"	f	file:
+turnserver_process_channelbind_request	.\turnserver.c	/^static int turnserver_process_channelbind_request(int transport_protocol,$/;"	f	file:
+turnserver_process_channeldata	.\turnserver.c	/^static int turnserver_process_channeldata(int transport_protocol,$/;"	f	file:
+turnserver_process_connect_request	.\turnserver.c	/^static int turnserver_process_connect_request(int transport_protocol, int sock,$/;"	f	file:
+turnserver_process_connectionbind_request	.\turnserver.c	/^static int turnserver_process_connectionbind_request(int transport_protocol,$/;"	f	file:
+turnserver_process_createpermission_request	.\turnserver.c	/^static int turnserver_process_createpermission_request(int transport_protocol,$/;"	f	file:
+turnserver_process_refresh_request	.\turnserver.c	/^static int turnserver_process_refresh_request(int transport_protocol, int sock,$/;"	f	file:
+turnserver_process_send_indication	.\turnserver.c	/^static int turnserver_process_send_indication($/;"	f	file:
+turnserver_process_tcp_stream	.\turnserver.c	/^static void turnserver_process_tcp_stream(const char* buf, ssize_t nb,$/;"	f	file:
+turnserver_process_turn	.\turnserver.c	/^static int turnserver_process_turn(int transport_protocol, int sock,$/;"	f	file:
+turnserver_relayed_recv	.\turnserver.c	/^static int turnserver_relayed_recv(const char* buf, ssize_t buflen,$/;"	f	file:
+turnserver_remove_pidfile	.\turnserver.c	/^static void turnserver_remove_pidfile(const char* pidfile)$/;"	f	file:
+turnserver_send_error	.\turnserver.c	/^static int turnserver_send_error(int transport_protocol, int sock, int method,$/;"	f	file:
+turnserver_unblock_realtime_signal	.\turnserver.c	/^static inline void turnserver_unblock_realtime_signal(void)$/;"	f	file:
+turnserver_write_pidfile	.\turnserver.c	/^static void turnserver_write_pidfile(const char *pidfile)$/;"	f	file:
+type	.\tls_peer.h	/^  enum protocol_type type; \/**< Transport protocol used (TCP or UDP) *\/$/;"	m	struct:tls_peer	typeref:enum:tls_peer::protocol_type
+uid_drop_privileges	.\util_sys.c	/^int uid_drop_privileges(uid_t uid_real, gid_t gid_real, uid_t uid_eff,$/;"	f
+uid_gain_privileges	.\util_sys.c	/^int uid_gain_privileges(uid_t uid_eff, gid_t gid_eff)$/;"	f
+uid_t	.\util_sys.h	/^typedef int uid_t;$/;"	t
+uint16_t	.\dbg.c	/^typedef unsigned __int16 uint16_t;$/;"	t	file:
+uint16_t	.\tls_peer.h	/^typedef unsigned __int16 uint16_t;$/;"	t
+uint16_t	.\turn.h	/^typedef unsigned __int16 uint16_t;$/;"	t
+uint16_t	.\util_crypto.h	/^typedef unsigned __int16 uint16_t;$/;"	t
+uint16_t	.\util_sys.h	/^typedef unsigned __int16 uint16_t;$/;"	t
+uint32_convert	.\util_sys.c	/^void uint32_convert(const unsigned char* data, size_t data_len, uint32_t* t)$/;"	f
+uint32_t	.\dbg.c	/^typedef unsigned __int32 uint32_t;$/;"	t	file:
+uint32_t	.\tls_peer.h	/^typedef unsigned __int32 uint32_t;$/;"	t
+uint32_t	.\turn.h	/^typedef unsigned __int32 uint32_t;$/;"	t
+uint32_t	.\util_crypto.h	/^typedef unsigned __int32 uint32_t;$/;"	t
+uint32_t	.\util_sys.h	/^typedef unsigned __int32 uint32_t;$/;"	t
+uint64_convert	.\util_sys.c	/^void uint64_convert(const unsigned char* data, size_t data_len, uint64_t* t)$/;"	f
+uint64_t	.\dbg.c	/^typedef unsigned __int64 uint64_t;$/;"	t	file:
+uint64_t	.\tls_peer.h	/^typedef unsigned __int64 uint64_t;$/;"	t
+uint64_t	.\turn.h	/^typedef unsigned __int64 uint64_t;$/;"	t
+uint64_t	.\util_crypto.h	/^typedef unsigned __int64 uint64_t;$/;"	t
+uint64_t	.\util_sys.h	/^typedef unsigned __int64 uint64_t;$/;"	t
+uint8_t	.\dbg.c	/^typedef unsigned __int8 uint8_t;$/;"	t	file:
+uint8_t	.\tls_peer.h	/^typedef unsigned __int8 uint8_t;$/;"	t
+uint8_t	.\turn.h	/^typedef unsigned __int8 uint8_t;$/;"	t
+uint8_t	.\util_crypto.h	/^typedef unsigned __int8 uint8_t;$/;"	t
+uint8_t	.\util_sys.h	/^typedef unsigned __int8 uint8_t;$/;"	t
+unknown_attribute	.\protocol.h	/^  struct turn_attr_unknown_attribute* unknown_attribute; \/**< UNKNOWN-ATTRIBUTE attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_unknown_attribute
+username	.\account.h	/^  char username[514]; \/**< Username *\/$/;"	m	struct:account_desc
+username	.\allocation.h	/^  char* username; \/**< Username of client *\/$/;"	m	struct:allocation_desc
+username	.\protocol.h	/^  struct turn_attr_username* username; \/**< USERNAME attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_username
+username	.\test_turn_client.c	/^  char* username; \/**< User *\/$/;"	m	struct:client_configuration	file:
+verify_callback	.\test_turn_client.c	/^int verify_callback(int preverify_ok, X509_STORE_CTX* store)$/;"	f
+verify_callback	.\tls_peer.h	/^  int (*verify_callback)(int, X509_STORE_CTX *); \/**< Verification callback *\/$/;"	m	struct:tls_peer
+verify_certificate	.\tls_peer.c	/^static int verify_certificate(SSL* ssl)$/;"	f	file:
+xor_mapped_addr	.\protocol.h	/^  struct turn_attr_xor_mapped_address* xor_mapped_addr; \/**< XOR-MAPPED-ADDRESS attribute *\/$/;"	m	struct:turn_message	typeref:struct:turn_message::turn_attr_xor_mapped_address
+xor_peer_addr_overflow	.\protocol.h	/^  size_t xor_peer_addr_overflow; \/**< If set to 1, not all the XOR-PEER-ADDRESS given in request are in this structure *\/$/;"	m	struct:turn_message
